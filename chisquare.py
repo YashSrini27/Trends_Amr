@@ -404,6 +404,7 @@ def plot_age_group(organism,selected_country):
 def conplot_geo(organism):
     import pandas as pd
     import plotly.express as px
+    import numpy as np
     
     if type(mapping[organism])==type([1,2]):
         import pandas as pd
